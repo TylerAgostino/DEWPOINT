@@ -1,0 +1,9 @@
+
+	
+				<tr id='favoritesSpan'> </tr>
+			<tr>
+				<td colspan=2>
+					<input type = 'button' value = 'Choose a Save Location' onClick='loadFavorites' />
+				</td>
+			</tr>
+		</table>

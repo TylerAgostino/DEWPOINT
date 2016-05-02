@@ -7,8 +7,8 @@ Function loadFavorites
 	favesFile.Close
 	'Then replace the semicolons with the table cell tags, and line breaks with the table row tags
 	strFileTextFixed = Replace(strFileText, ";", "'></td><td>")
-	strFileTextFixed = Replace(strFileTextFixed, vbCrLf, "</td></tr><tr><td><input type='radio' name='weatherstation'  value='")
+	strFileTextFixed = Replace(strFileTextFixed, vbCrLf, "</td></tr><tr><td align='right'><input type='radio' name='weatherstation'  value='")
 	
-	loadFavorites="<tr><td><input type='radio' name='weatherstation' value='"+strFileTextFixed+"</td></tr>"
+	loadFavorites="<tr><td align='right'><input type='radio' name='weatherstation' value='"+strFileTextFixed+"</td></tr>"
 	'outputSpan.innerhtml="test"
 End Function

@@ -10,6 +10,7 @@
 	<SCRIPT LANGUAGE="VBScript" src="include/outputLocation.vbs"></SCRIPT>
 	<SCRIPT LANGUAGE="VBScript" src="include/loadFavorites.vbs"></SCRIPT>
 	<SCRIPT LANGUAGE="VBScript" src="include/generateTable.vbs"></SCRIPT>
+	<SCRIPT LANGUAGE="VBScript" src="include/download.vbs"></SCRIPT>
 
 	<Script Language="VBScript">
 		Sub Window_onLoad
@@ -18,8 +19,8 @@
 		End Sub
 	</Script>
 	
-	<body bgcolor="#E6E6FA" onload="generateTable">
-	<form action="">
+	<body bgcolor="#E6E6FA" onload="generateTable" style="overflow:auto">
+	<form action="" name='userInput' >
 		<span id='outputSpan'> </span>
 	</form>
 	</body>

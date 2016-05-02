@@ -1,6 +1,6 @@
 Sub ChooseSaveFolder
     strStartDir = "c:\"
-    txtFile.value = PickFolder(strStartDir)
+    userInput.saveLocation.value = PickFolder(strStartDir)
 End Sub 
 
 Function PickFolder(strStartDir)

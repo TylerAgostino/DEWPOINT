@@ -1,9 +1,21 @@
+<tr id='favoritesSpan'> </tr>
 
-	
-				<tr id='favoritesSpan'> </tr>
-			<tr>
-				<td colspan=2>
-					<input type = 'button' value = 'Choose a Save Location' onClick='loadFavorites' />
-				</td>
-			</tr>
-		</table>
+<tr>
+	<td colspan=2 align='center'>
+		<input type = 'button' style="width:160px" value = 'Choose a Save Location' onClick='ChooseSaveFolder' />
+	</td>
+</tr>
+
+<tr>
+	<td colspan=2 align='center'>
+		<input type="text" size='20' name="saveLocation" disabled>
+	</td>
+</tr>
+
+<tr>
+	<td colspan=2 align='center'>
+		<input type = 'button' value = 'Download' onClick='checkInput' /> 
+	</td>
+</tr>
+
+</table>
